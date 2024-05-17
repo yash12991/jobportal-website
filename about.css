@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color */
+    background-image: url(GoogleOffi.jpeg);
+}
+
+header {
+    background-color: #ff6f61; /* Coral color for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 50% 20px; /* Curved bottom-left corner */
+    border-bottom-right-radius: 50% 20px; /* Curved bottom-right corner */
+    overflow: hidden; /* Hide overflow content beyond border-radius */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f6f7f9; /* Light gray color */
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    color: #333; /* Dark text color */
+}
+
+.event {
+    margin-top: 20px;
+    margin: 70px;
+    padding: 40px;
+    background-color: #f6f7f9;
+}
+
+.about h2 {
+    color: #ff6f61; /* Highlight color for headings */
+    border-bottom: 2px solid #ff6f61; /* Highlight color for headings */
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333; /* Dark text color */
+}
+
+
+
+.event {
+    margin-bottom: 20px;
+}
+
+.date {
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+.description {
+    color: #666; /* Gray color for description */
+}
+
+.fun-facts {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.fun-facts li {
+    background-color: #ff6f61; /* Highlight color for fun facts */
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    position: relative;
+    line-height: 1.6;
+    color: #fff; /* White text color */
+}
+
+.fun-facts li:before {
+    content: "\2022";
+    color: #fff; /* White color for bullet */
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+    width: 20px;
+    margin-left: -25px;
+    position: absolute;
+    left: 0;
+}
+
+.fun-facts li:nth-child(odd) {
+    background-color: #ff8960; /* Alternate highlight color */
+}
+
+footer {
+    background-color: #333;
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+

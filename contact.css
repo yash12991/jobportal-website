@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+
+    background-image:url(office.jpg);
+}
+
+header {
+    background-color: #ff6f61; /* Coral color for header */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 50% 20px; /* Curved bottom-left corner */
+    border-bottom-right-radius: 50% 20px; /* Curved bottom-right corner */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.container h1 {
+    color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+}
+
+.container form {
+    /* background-color: #183eba; */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 18px; /* Increase font size */
+    
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 12px; /* Larger padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increase font size */
+    
+}
+
+button {
+    background-color: #ff6f61; /* Coral color for button */
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Larger padding */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px; /* Increase font size */
+}
+
+button:hover {
+    background-color: #ff5246; /* Darker coral color on hover */
+}

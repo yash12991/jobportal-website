@@ -1,0 +1,201 @@
+/* body{
+    
+}
+h1{
+    text-align: center;
+    
+    background: linear-gradient(to bottom, #cc5733 0%, #b899ff 100%);
+}
+.logo{
+    height: 3cm;
+    width: 5cm;
+    padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+}
+.title{
+    position: absolute;
+    top: 2cm;
+    right: 4cm;
+    width: 200px;
+    height: 100px;
+    
+
+}  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom, #cc5733 0%, #b899ff 100%);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    overflow: auto; /* Clear floats */
+}
+
+.logo {
+    float: left;
+    margin-right: 20px; /* Adjust margin to create space between logo and title }*/
+
+
+.title {
+    float: right;
+    margin-left: 20px; /* Adjust margin to create space between logo and title} */
+
+
+
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.featured-products {
+    text-align: center;
+}
+
+.featured-products h2 {
+    color: #333;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}  
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
